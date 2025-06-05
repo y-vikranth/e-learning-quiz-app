@@ -1,0 +1,52 @@
+[
+  {
+    "text": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Paris", "Rome"],
+    "correctIndex": 2
+  },
+  {
+    "text": "Which data structure uses FIFO ordering?",
+    "options": ["Stack", "Queue", "Array", "Tree"],
+    "correctIndex": 1
+  },
+  {
+    "text": "Who developed the Java programming language?",
+    "options": ["James Gosling", "Bjarne Stroustrup", "Dennis Ritchie", "Guido van Rossum"],
+    "correctIndex": 0
+  },
+  {
+    "text": "Which Swing component is used for a button?",
+    "options": ["JLabel", "JTextField", "JButton", "JPanel"],
+    "correctIndex": 2
+  },
+  {
+    "text": "Which file extension is used for Java compiled files?",
+    "options": [".java", ".class", ".js", ".jar"],
+    "correctIndex": 1
+  },
+  {
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "instanceof"],
+    "correctIndex": 1
+  },
+  {
+    "text": "Which of these is a checked exception?",
+    "options": ["NullPointerException", "ArithmeticException", "FileNotFoundException", "ArrayIndexOutOfBoundsException"],
+    "correctIndex": 2
+  },
+  {
+    "text": "Which layout manager arranges components in a row or column?",
+    "options": ["BorderLayout", "FlowLayout", "GridLayout", "CardLayout"],
+    "correctIndex": 2
+  },
+  {
+    "text": "Which method is used to start a thread in Java?",
+    "options": ["run()", "init()", "start()", "execute()"],
+    "correctIndex": 2
+  },
+  {
+    "text": "What is the default value of an int variable in Java?",
+    "options": ["0", "null", "undefined", "NaN"],
+    "correctIndex": 0
+  }
+]
