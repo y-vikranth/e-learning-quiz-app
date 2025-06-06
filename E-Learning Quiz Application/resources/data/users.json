@@ -1,14 +1,1 @@
-[
-  {
-    "username": "vikranth.y",
-    "fullName": "Vikranth Yeddula",
-    "attempts": 0,
-    "scores": []
-  },
-  {
-    "username": "aarush.r",
-    "fullName": "Aarush Reddy",
-    "attempts": 0,
-    "scores": []
-  }
-]
+[{"username":"Alice","scores":[8,9,10]},{"username":"Bob","scores":[6,7]},{"username":"Charlie","scores":[]},{"username":"vikranth","scores":[]}]
