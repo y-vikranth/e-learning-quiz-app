@@ -51,37 +51,6 @@ public class FileManager {
         return new ArrayList<>();
     }
 
-//    public static List<User> getUsers() {
-//        try (
-//                InputStream inputStream = FileManager.class.getResourceAsStream(USERS_RESOURCE_PATH);
-//                InputStreamReader reader = inputStream == null ? null : new InputStreamReader(inputStream, StandardCharsets.UTF_8)
-//        ) {
-//            if (reader == null) {
-//                System.err.println("Users file not found in resources.");
-//                return new ArrayList<>();
-//            }
-//            if (inputStream == null) {
-//                System.err.println("Questions file not found at: " + QUESTIONS_PATH);
-//                return new ArrayList<>();
-//            }
-//
-//            Type userListType = new TypeToken<List<User>>() {}.getType();
-//            return new Gson().fromJson(reader, userListType);
-//
-//        } catch (JsonSyntaxException e) {
-//            System.err.println("Invalid JSON syntax in users file: " + e.getMessage());
-//        } catch (FileNotFoundException e) {
-//            System.err.println("File was not found: " + e.getMessage());
-//        } catch (IOException e) {
-//            System.err.println("IO error while reading users: " + e.getMessage());
-//        } catch (SecurityException e) {
-//            System.err.println("Permission denied: " + e.getMessage());
-//        } catch (Exception e) {
-//            System.err.println("Unexpected error while reading users: " + e.getMessage());
-//        }
-//        return new ArrayList<>();
-//    }
-
     public static List<User> getUsers() {
         // Define the path where the users.json file is located on disk
         Path inputPath = Paths.get("resources/data/users.json");
